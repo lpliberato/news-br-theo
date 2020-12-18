@@ -1,27 +1,55 @@
-# NewsBr
+# news-br-theo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+O projeto foi desenvolvido em angular 9, e foram seguidos os seguintes passos.
 
-## Development server
+Inicialmente acessei o repositório https://github.com/salesforce-ux/theo, li a documentação e observei os exemplos. Tive alguns problemas com a interpretação dos arquivos .yml, decidi então converte-los para .json, pois tenho maior familiaridade. Descobri que o nome das "props" dos tokens estavam "errados" (ou com incompatibilidade de versão):
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+como estava:
 
-## Code scaffolding
+	{
+	  "global": {
+	    "type": "size",
+	    "category": "border"
+	  },
+	  "props": {
+		{
+		  "name": "border-style-default"
+		     "value": "solid",
+	  "meta": {
+		"friendlyName": "Border Style Default"
+	  },
+	   "category": "border-style"
+	    }
+	  }
+	}
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+alterei para:
 
-## Build
+	{
+	  "global": {
+	    "type": "size",
+	    "category": "border"
+	  },
+	  "props": {
+	    "border-style-default": {
+	      "value": "solid",
+	      "meta": {
+		"friendlyName": "Border Style Default"
+	      },
+	      "category": "border-style"
+	    }
+	  }
+	}
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Estudei mais um pouco para entender como funciona o gulp e o theo. Criei então o arquivo "gulpfile.js" e configurei para que o gulp fosse executado antes de executar o projeto, pois o css do projeto depende do valor das variáveis que estarão no arquivo gerado pelo theo utilizando o gulp.
 
-## Running unit tests
+A seguinte linha foi adicionada no package.json:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+"start": "gulp design-tokens && ng serve"
 
-## Running end-to-end tests
+Para que seja possível gerar as variáveis para os arquivos .scss e executar o projeto com o comando "npm run start".
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Criei os testes unitários para simular como seria importante a implementação prática.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Acredito que para manter um código de qualidade é necessário utilizar as boas práticas de "clean code", e utilizar uma arquitetura para auxiliar na separação das responsabilidades e na diminuição do acoplamento. Reuniões de code review e mecanismos de pull-request também ajudam muito, assim como implementações de testes unitários e e2e. 
+Para garantir a confiabilidade dos testes é necessário ter um fluxo de ci/cd com um pipeline que recebe os pull-requests executa todos os testes e afere a taxa de cobertura. Dessa forma acredito que os impactos das implementações são mitigados e a qualidade do código garantida.
