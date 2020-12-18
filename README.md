@@ -6,40 +6,40 @@ Inicialmente acessei o repositório https://github.com/salesforce-ux/theo, li a 
 
 como estava:
 
-{
-  "global": {
-    "type": "size",
-    "category": "border"
-  },
-  "props": {
 	{
-	  "name": "border-style-default"
-             "value": "solid",
-  "meta": {
-        "friendlyName": "Border Style Default"
-  },
-   "category": "border-style"
-    }
-  }
-}
+	  "global": {
+	    "type": "size",
+	    "category": "border"
+	  },
+	  "props": {
+		{
+		  "name": "border-style-default"
+		     "value": "solid",
+	  "meta": {
+		"friendlyName": "Border Style Default"
+	  },
+	   "category": "border-style"
+	    }
+	  }
+	}
 
 alterei para:
 
-{
-  "global": {
-    "type": "size",
-    "category": "border"
-  },
-  "props": {
-    "border-style-default": {
-      "value": "solid",
-      "meta": {
-        "friendlyName": "Border Style Default"
-      },
-      "category": "border-style"
-    }
-  }
-}
+	{
+	  "global": {
+	    "type": "size",
+	    "category": "border"
+	  },
+	  "props": {
+	    "border-style-default": {
+	      "value": "solid",
+	      "meta": {
+		"friendlyName": "Border Style Default"
+	      },
+	      "category": "border-style"
+	    }
+	  }
+	}
 
 Estudei mais um pouco para entender como funciona o gulp e o theo. Criei então o arquivo "gulpfile.js" e configurei para que o gulp fosse executado antes de executar o projeto, pois o css do projeto depende do valor das variáveis que estarão no arquivo gerado pelo theo utilizando o gulp.
 
