@@ -1,0 +1,12 @@
+{
+  "global": {
+    "type": "number",
+    "category": "shadow"
+  },
+  "props": {
+    "shadow-spread-radius-default": {
+      "value": 0,
+      "category": "shadow-spread-radius"
+    }
+  }
+}

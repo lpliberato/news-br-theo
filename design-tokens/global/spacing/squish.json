@@ -1,0 +1,27 @@
+{
+  "global": {
+    "type": "unit",
+    "category": "spacing"
+  },
+  "imports": [
+    "./aliases.json"
+  ],
+  "props": {
+    "spacing-squish-quarck": {
+      "value": "{!spacing-quarck} {!spacing-nano}",
+      "category": "spacing-squish"
+    },
+    "spacing-squish-nano": {
+      "value": "{!spacing-nano} {!spacing-xxxs}",
+      "category": "spacing-squish"
+    },
+    "spacing-squish-xs": {
+      "value": "{!spacing-xxxs} {!spacing-xxs}",
+      "category": "spacing-squish"
+    },
+    "spacing-squish-sm": {
+      "value": "{!spacing-xxxs} {!spacing-xs}",
+      "category": "spacing-squish"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "global": {
+    "type": "unit",
+    "category": "radius"
+  },
+  "props": {
+    "border-radius-none": {
+      "value": "0px"
+    },
+    " border-radius-sm": {
+      "value": "8px"
+    },
+    "border-radius-md": {
+      "value": "16px"
+    },
+    "border-radius-lg": {
+      "value": "24px"
+    },
+    "border-radius-pill": {
+      "value": "500px"
+    },
+    "border-radius-circular": {
+      "value": "50%"
+    }
+  }
+}

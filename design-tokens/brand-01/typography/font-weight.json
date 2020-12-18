@@ -1,0 +1,24 @@
+{
+  "global": {
+    "type": "number",
+    "category": "typography"
+  },
+  "props": {
+    "font-weight-light": {
+      "value": 400,
+      "category": "font-weight"
+    },
+    "font-weight-regular": {
+      "value": 500,
+      "category": "font-weight"
+    },
+    "font-weight-medium": {
+      "value": 600,
+      "category": "font-weight"
+    },
+    "font-weight-bold": {
+      "value": 700,
+      "category": "font-weight"
+    }
+  }
+}

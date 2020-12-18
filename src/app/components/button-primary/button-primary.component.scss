@@ -1,0 +1,15 @@
+@import ".generated/tokens";
+
+.button {
+    font-size: $font-size-sm;
+    line-height: $line-height-tight;
+    border-radius: $border-radius-none;
+    padding: $spacing-squish-xs;
+    font-family: $font-family-highlight;
+    font-weight: $font-weight-medium;
+    color: $color-default-neutral-05;
+    background-color: $color-brand-primary-03;
+}
+.button:hover {
+    background-color: $color-brand-primary-02;
+}

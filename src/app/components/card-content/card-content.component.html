@@ -1,0 +1,6 @@
+<app-heading class="heading" [title]="article?.title"></app-heading>
+{{article?.title}}
+<app-subtitle class="subtitle" [title]="article?.content"></app-subtitle>
+<app-paragraph class="paragraph" [content]="article?.description"></app-paragraph>
+<app-button [title]="'Anterior'" (click)="onClickDecrement()"></app-button>
+<app-button [title]="'Próxima'" (click)="onClickIncrement()"></app-button>

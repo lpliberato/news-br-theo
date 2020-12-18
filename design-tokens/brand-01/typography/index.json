@@ -1,0 +1,10 @@
+{
+  "global": {
+    "type": "typography",
+    "category": "all"
+  },
+  "imports": [
+    "./font-family.json",
+    "./font-weight.json"
+  ]
+}

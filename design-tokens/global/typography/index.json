@@ -1,0 +1,10 @@
+{
+  "global": {
+    "type": "typography",
+    "category": "all"
+  },
+  "imports": [
+    "./font-line-height.json",
+    "./font-size.json"
+  ]
+}

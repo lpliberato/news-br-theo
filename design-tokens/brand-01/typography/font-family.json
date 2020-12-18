@@ -1,0 +1,23 @@
+{
+  "global": {
+    "type": "string",
+    "category": "typography"
+  },
+  "props": {
+    "font-family-base": {
+      "value": "Archivo",
+      "type": "string",
+      "category": "font-family"
+    },
+    "font-family-content": {
+      "value": "Archivo",
+      "type": "string",
+      "category": "font-family"
+    },
+    "font-family-highlight": {
+      "value": "Archivo",
+      "type": "string",
+      "category": "font-family"
+    }
+  }
+}

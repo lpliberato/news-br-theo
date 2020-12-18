@@ -1,0 +1,23 @@
+{
+  "global": {
+    "type": "number",
+    "category": "opacity"
+  },
+  "props": {
+    "opacity-level-semiopaque": {
+      "value": 0.80
+    },
+    "opacity-level-intense": {
+      "value": 0.64
+    },
+    "opacity-level-medium": {
+      "value": 0.32
+    },
+    "opacity-level-light": {
+      "value": 0.16
+    },
+    "opacity-level-semitransparent": {
+      "value": 0.08
+    }
+  }
+}

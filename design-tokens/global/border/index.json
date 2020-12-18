@@ -1,0 +1,10 @@
+{
+  "global": {
+    "type": "border",
+    "category": "all"
+  },
+  "imports": [
+    "./style.json",
+    "./width.json"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "global": {
+    "type": "unit",
+    "category": "spacing"
+  },
+  "imports": [
+    "./aliases.json"
+  ],
+  "props": {
+    "spacing-inset-quarck": {
+      "value": "{!spacing-quarck}",
+      "category": " spacing-inset"
+    },
+    "spacing-inset-nano": {
+      "value": "{!spacing-nano}",
+      "category": "spacing-inset"
+    },
+    "spacing-inset-xs": {
+      "value": "{!spacing-xxxs}",
+      "category": "spacing-inset"
+    },
+    "spacing-inset-sm": {
+      "value": "{!spacing-xxs}",
+      "category": "spacing-inset"
+    },
+    "spacing-inset-md": {
+      "value": "{!spacing-xs}",
+      "category": "spacing-inset"
+    },
+    "spacing-inset-lg": {
+      "value": "{!spacing-sm}",
+      "category": "spacing-inset"
+    }
+  }
+}

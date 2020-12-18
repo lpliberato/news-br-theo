@@ -1,0 +1,63 @@
+{
+  "global": {
+    "type": "unit",
+    "category": "spacing"
+  },
+  "imports": [
+    "./aliases.json"
+  ],
+  "props": {
+    "spacing-stack-quarck": {
+      "value": "{!spacing-quarck}",
+      "category": "spacing-stack"
+    },
+    "spacing-stack-nano": {
+      "value": "{!spacing-nano}",
+      "category": "spacing-stack"
+    },
+    "spacing-stack-xxxs": {
+      "value": "{!spacing-xxxs}",
+      "category": "spacing-stack"
+    },
+    "spacing-stack-xxs": {
+      "value": "{!spacing-xxs}",
+      "category": "spacing-stack"
+    },
+    "spacing-stack-xs": {
+      "value": "{!spacing-xs}",
+      "category": "spacing-stack"
+    },
+    "spacing-stack-sm": {
+      "value": "{!spacing-sm}",
+      "category": "spacing-stack"
+    },
+    "spacing-stack-md": {
+      "value": "{!spacing-md}",
+      "category": "spacing-stack"
+    },
+    "spacing-stack-lg": {
+      "value": "{!spacing-lg}",
+      "category": "spacing-stack"
+    },
+    "spacing-stack-xl": {
+      "value": "{!spacing-xl}",
+      "category": "spacing-stack"
+    },
+    "spacing-stack-xxl": {
+      "value": "{!spacing-xxl}",
+      "category": "spacing-stack"
+    },
+    "spacing-stack-xxxl": {
+      "value": "{!spacing-xxxl}",
+      "category": "spacing-stack"
+    },
+    "spacing-stack-huge": {
+      "value": "{!spacing-huge}",
+      "category": "spacing-stack"
+    },
+    "spacing-stack-giant": {
+      "value": "{!spacing-giant}",
+      "category": "spacing-stack"
+    }
+  }
+}

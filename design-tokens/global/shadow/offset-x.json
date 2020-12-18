@@ -1,0 +1,12 @@
+{
+  "global": {
+    "type": "number",
+    "category": "shadow"
+  },
+  "props": {
+    "shadow-offset-x-none": {
+      "value": "0px",
+      "category": "shadow-offset-x"
+    }
+  }
+}

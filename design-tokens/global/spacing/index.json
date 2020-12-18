@@ -1,0 +1,12 @@
+{
+  "global": {
+    "type": "spacing",
+    "category": "all"
+  },
+  "imports": [
+    "./inline.json",
+    "./inset.json",
+    "./stack.json",
+    "./squish.json"
+  ]
+}

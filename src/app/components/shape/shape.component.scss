@@ -1,0 +1,9 @@
+@import ".generated/tokens";
+
+.shape {
+    border-radius: $border-radius-none;
+    padding: $spacing-squish-sm;
+    border-width: $border-width-thin;
+    border-color: $color-neutral-04;
+    background-color: $color-neutral-05;
+}
