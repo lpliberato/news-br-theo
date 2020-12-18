@@ -1,6 +1,6 @@
 # news-br-theo
 
-O projeto foi desenvolvido em angular 9, e foram seguindos os seguintes passos.
+O projeto foi desenvolvido em angular 9, e foram seguidos os seguintes passos.
 
 Inicialmente acessei o repositório https://github.com/salesforce-ux/theo, li a documentação e observei os exemplos. Tive alguns problemas com a interpretação dos arquivos .yml, decidi então converte-los para .json, pois tenho maior familiaridade. Descobri que o nome das "props" dos tokens estavam "errados" (ou com incompatibilidade de versão):
 
