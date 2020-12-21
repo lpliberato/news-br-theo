@@ -45,7 +45,7 @@ Estudei mais um pouco para entender como funciona o gulp e o theo. Criei então 
 
 A seguinte linha foi adicionada no package.json:
 
-"start": "gulp design-tokens && ng serve"
+    "start": "gulp design-tokens && ng serve"
 
 Para que seja possível gerar as variáveis para os arquivos .scss e executar o projeto com o comando "npm run start".
 
